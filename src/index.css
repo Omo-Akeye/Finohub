@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #fff;
+    /* overflow-x: hidden; */
+}
+
+.box1 {
+    transform: perspective(500px) rotateY(40deg);
+}
+.line::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 70%;
+    background: #DDF247;
+    margin-top: 20px;
+    left: 5%;
+}
+@media only screen and (max-width: 500px) {
+    .line::before {
+        left: 5.6%;
+    }
+}
