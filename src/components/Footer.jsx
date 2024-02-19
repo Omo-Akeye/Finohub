@@ -5,11 +5,17 @@ export default function Footer() {
     <div className='absolute w-full -mt-48 text-white bg-black'>
       <main className='lg:w-[80%] w-[90%]  m-auto'>
       <section className='pt-60 md:flex '>
-                <div className='mb-7' >
+                <div className='mb-7 md:hidden' >
                     <img src="/assets/Logo Name.svg" alt="" />
                     <p className='py-4'>Lorem ipsum dolor sit amet consectetur. Pharetra sed <br />et quis vitae quam massa mattis sed vivamus.</p>
                 </div>
-            <ul className='flex justify-between'>
+            <ul className='flex justify-between w-full'>
+                <li className='hidden md:block'>
+                <div  >
+                    <img src="/assets/Logo Name.svg" alt="" />
+                    <p className='py-4'>Lorem ipsum dolor sit amet consectetur. Pharetra sed <br />et quis vitae quam massa mattis sed vivamus.</p>
+                </div>
+                </li>
                 <li>
                     <h2 className='text-xl'>About</h2>
                     <ul>

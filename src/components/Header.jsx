@@ -4,7 +4,7 @@
 export default function Header() {
  
   return (
-    <div className='grid lg:grid-cols-[1.2fr,1fr] sm:grid-cols-[1.2fr,1fr] items-center text-white xl:w-[90%] w-full m-auto lg:mt-24 md:mt-16 mt-12 md:gap-6 lg:gap-16 gap-10 '>
+    <div className='grid lg:grid-cols-[1.2fr,1fr] sm:grid-cols-[1.2fr,1fr] items-center text-white xl:w-[90%] w-full m-auto lg:mt-24 md:mt-16 mt-12 md:gap-6 lg:gap-16 gap-10 xl:mb-12'>
     <div > 
         <h1   className='text-4xl font-semibold text-left md:text-5xl xl:text-7xl lg:text-6xl'>
         There's no <span  className='line-through'>peace</span> <span className='text-primary '>wellness </span>without <span className='underline'>financial <br className="none"/> wellness </span>

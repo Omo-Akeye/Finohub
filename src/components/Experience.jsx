@@ -21,25 +21,25 @@ export default function Experience() {
             
             <div className='box1 lg:w-[270px]  rounded-[30px] mb-8 lg:h-[152px] md:w-full sm:w-[80%] bg-black text-left px-8'>
              <div>
-               <h3 className='mt-4 text-5xl font-bold'>10X</h3>
+               <h3 className='mt-4 text-4xl font-bold sm:text-5xl'>10X</h3>
                 <p className='md:text-xl '>Increases in productivity</p>
              </div>
             </div>
-            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] w-full bg-black text-left px-8'>
-               <div className='my-4'>
-               <h3 className='mt-4 text-5xl font-bold'>250K</h3>
+            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] w-full md:w-full sm:w-[80%] bg-black text-left px-8'>
+               <div className='my-4 '>
+               <h3 className='mt-4 text-4xl font-bold sm:text-5xl'>250K</h3>
                 <p className='md:text-xl'>Registered <br />Business</p>
                </div>
             </div>
-            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] w-full bg-black text-left px-8'>
+            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] md:w-full sm:w-[80%] bg-black text-left px-8'>
                 <div>
-                <h3 className='mt-4 text-5xl font-bold '>85%</h3>
+                <h3 className='mt-4 text-4xl font-bold sm:text-5xl'>85%</h3>
                 <p className='md:text-xl '>Revenue <br />Growth</p>
                 </div>
             </div>
-            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] w-full bg-black text-left px-8'>
+            <div className='box1 lg:w-[270px] rounded-[30px] mb-8 lg:h-[152px] md:w-full sm:w-[80%] bg-black text-left px-8'>
       <div className='mb-3'>
-      <h3 className='mt-4 text-5xl font-bold '>600+</h3>
+      <h3 className='mt-4 text-4xl font-bold sm:text-5xl'>600+</h3>
                 <p className='md:text-xl '>Billion loan <br /> per month</p>
       </div>
             </div>

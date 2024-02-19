@@ -22,8 +22,17 @@ body {
     margin-top: 20px;
     left: 5%;
 }
-@media only screen and (max-width: 500px) {
+@media  (max-width: 500px) {
     .line::before {
-        left: 5.6%;
+        left: 6%;
+    }
+    .box1 {
+        transform: perspective(300px) rotateY(20deg);
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:767px){
+    .line::before {
+        left: 3%;
     }
 }

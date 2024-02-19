@@ -36,7 +36,7 @@ function Faqs () {
     <div className='w-[90%] m-auto mt-28'>
       <section className='text-center'>
         <h1 className='mb-8 text-3xl font-bold md:text-5xl md:mb-14' data-aos="fade-up">FAQS</h1>
-        <ul>
+        <ul className="text-left">
           {faqData.map((faq, index) => (
             <FaqItem key={index} question={faq.question} answer={faq.answer}/>
           ))}

@@ -8,10 +8,10 @@ export default function Modal({isModalOpen,setIsModalOpen}) {
         </div>
        <nav className='flex items-center justify-center w-full h-full min-h-screen bg-black'>
         <ul className='text-center'>
-          <li className='mb-5 text-3xl'><a href="/">Home</a></li>
-          <li className='mb-5 text-3xl'><a href="#">Features</a></li>
-          <li className='mb-5 text-3xl'><a href="#" className=''>Community</a></li>
-          <li className='mb-5 text-3xl'><a href="#">Help</a></li>
+          <li className='mb-5 text-2xl hover:text-primary'><a href="/">Home</a></li>
+          <li className='mb-5 text-2xl  hover:text-primary'><a href="#">Features</a></li>
+          <li className='mb-5 text-2xl  hover:text-primary'><a href="#" className=''>Community</a></li>
+          <li className='mb-5 text-2xl  hover:text-primary'><a href="#">Help</a></li>
           <li><div className='bg-primary rounded-[8px] text-black md:px-8 py-4  text-center hover:bg-[#BBCF17]'>Join FinoHub</div></li>
       </ul>
        </nav>
